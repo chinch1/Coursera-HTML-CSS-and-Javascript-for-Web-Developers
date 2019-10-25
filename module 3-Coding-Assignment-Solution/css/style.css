@@ -1,0 +1,103 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #FFFFFF;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+  #header-nav {
+    background-color: #1BD4F1;
+    border-radius: 0;
+    border: 2px solid black;
+    margin: 0 auto;
+  }
+  .visible-md, .visible-sm {
+    padding-bottom: 40px;
+  }
+  .navbar-brand {
+    padding-top: 0;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    font-family: 'Oxygen', sans-serif;
+    color: #000000;
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+    padding: 30px 0 30px;
+  }
+  .navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  }
+  #nav-list {
+    margin-top: -1px;
+    margin-bottom: 0
+  }
+  #nav-list a {
+    color: black;
+    text-align: center;
+  }
+  #nav-list a:hover {
+    background: #E7E7E7;
+  }
+  #nav-list a span {
+    font-size: 1.8em;
+  }
+  .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #61122f;
+  }
+  .navbar-header button.navbar-toggle {
+    clear: both;
+  }
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  #collapsable-nav a#border-box { /* Collapsed nav menu text */
+    box-sizing: border-box;
+    width: 100%;
+    border-top: solid black 1.5px;
+    background-color: white;
+  }
+/* END HEADER */
+
+/* HOME PAGE */
+  #menu-categories-title  {
+    margin-bottom: 45px;
+    font-weight: bold;
+    font-size: 2em;
+    color: black;
+  }
+  .jumbotron {
+    background-color: #1BD4F1;
+    box-shadow: 0 0 0px #3F0C1F;
+    border: 0px solid #3F0C1F;
+    height: 1500px;
+    margin: 0 20px 40px 20px;
+    padding-top: 10px
+  }
+  #menu-categories-title_2  {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-top: 0 ;
+    margin-bottom: 0;
+    padding: 0 0 15px;
+  }
+  #main-tile {
+    background-position: center;
+  }
+  #main-text {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: black;
+    text-align: left;
+    height: 1400px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+
+/* END HOME PAGE */
