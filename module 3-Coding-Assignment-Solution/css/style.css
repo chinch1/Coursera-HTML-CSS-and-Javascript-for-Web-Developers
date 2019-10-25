@@ -12,9 +12,6 @@ body {
     border: 2px solid black;
     margin: 0 auto;
   }
-  .visible-md, .visible-sm {
-    padding-bottom: 40px;
-  }
   .navbar-brand {
     padding-top: 0;
   }
@@ -26,7 +23,7 @@ body {
     margin-top: 0;
     margin-bottom: 0;
     line-height: .75;
-    padding: 30px 0 30px;
+    padding: 35px 0 30px;
   }
   .navbar-brand a:hover, .navbar-brand a:focus {
     text-decoration: none;
@@ -46,10 +43,16 @@ body {
     font-size: 1.8em;
   }
   .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-    border: 1px solid #61122f;
+    border: 2px solid #61122f;
   }
   .navbar-header button.navbar-toggle {
     clear: both;
+  }
+  .navbar-header2 {
+    height: 100px;
+  }
+  button.navbar-toggle {
+      margin-top: 0;
   }
   #collapsable-nav a { /* Collapsed nav menu text */
     font-size: 1.2em;
@@ -75,7 +78,16 @@ body {
     box-shadow: 0 0 0px #3F0C1F;
     border: 0px solid #3F0C1F;
     height: 1500px;
-    margin: 0 20px 40px 20px;
+    margin: 0 70px 40px 70px;
+    padding-top: 10px
+  }
+  .jumbotron2 {
+    background-color: #1BD4F1;
+    box-shadow: 0 0 0px #3F0C1F;
+    border: 0px solid #3F0C1F;
+    height: 1500px;
+    width: 100%;
+    margin: 0 auto 0;
     padding-top: 10px
   }
   #menu-categories-title_2  {
@@ -98,6 +110,17 @@ body {
     width: 100%;
     position: relative;
     overflow: hidden;
+    padding: 0 20px 0 20px;
   }
-
+  #main-text2 {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: black;
+    text-align: left;
+    height: 1400px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    padding: 0 30px 0 30px;
+  }
 /* END HOME PAGE */
